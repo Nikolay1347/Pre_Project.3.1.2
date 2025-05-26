@@ -41,6 +41,6 @@ public class DataInitializer {
             admin.setRoles(Set.of(adminRole, userRole));
             userRepository.save(admin);
         }
-        
+
     }
 }
