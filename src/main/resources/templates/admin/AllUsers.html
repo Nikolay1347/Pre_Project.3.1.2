@@ -17,7 +17,6 @@
         <th>Имя</th>
         <th>Возраст</th>
         <th>Почта</th>
-        <th>Пароль</th>
         <th>Активный</th>
         <th>Роль</th>
 
@@ -28,7 +27,6 @@
         <td th:utext="${users.username}">Имя</td>
         <td th:utext="${users.age}">Возраст</td>
         <td th:utext="${users.email}">Почта</td>
-        <td th:utext="${users.password}">Пароль</td>
         <td th:utext="${users.active}">Активный</td>
         <td>
             <th:block th:each="role : ${users.roles}">
